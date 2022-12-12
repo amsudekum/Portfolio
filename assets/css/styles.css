@@ -15,12 +15,16 @@ header {
     color: #eac100;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 header li {
     display: inline;
     list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: -4px;
 }
 
 header h2 {
@@ -30,3 +34,23 @@ header h2 {
     word-spacing: -8px;
     transform: scale(1, 2);
 }
+
+a:link {
+    color:#eac100;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #eac100;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:#eac100;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: #eac100;
+    text-decoration: none;
+  }
