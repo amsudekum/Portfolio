@@ -8,34 +8,25 @@ body {
     background-color: cornsilk;
 }
 
-.header {
+header {
     padding: 0.5%;   
     font-family: "Rubik Black 900", sans-serif;
     background-color: #012c1cee;
     color: #eac100;
-    text-align: center; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#about-contact {
-    float: left;
-}
-
-#work-resume {
-    float: right;
-}
-
-.header li {
+header li {
     display: inline;
     list-style-type: none;
 }
 
-.header h2 {
-    display: inline-block;
+header h2 {
     font-size: 60px;
     font-weight: bold;
-    text-align: center;
     letter-spacing: -2px;
     word-spacing: -8px;
-    transform: scale(1, 2)
-
+    transform: scale(1, 2);
 }
