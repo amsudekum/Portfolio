@@ -4,16 +4,23 @@
     margin: 0;
 }
 
+:root {
+    --black: #141010;
+    --cream: #eaded0; 
+    --pink: #eeaeb3; 
+    --orange: #e35635; 
+}
+
 body {
-    background-color: cornsilk;
+    background-color: var(--cream);
 }
 
 /* header CSS */
 header {
     padding: 0.5%;   
     font-family: "Poppins";
-    background-color: #012c1cee;
-    color: #eac100;
+    background-color: var(--black);
+    color: var(--cream);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -32,31 +39,31 @@ header h2 {
 }
 
 a:link {
-    color:#eac100;
+    color: var(--cream);
     text-decoration: none;
 }
 
 a:visited {
-    color: #eac100;
+    color: var(--cream);
     text-decoration: none;
 }
 
 a:hover {
-    color:#eac100;
+    color: var(--cream);
     text-decoration: none;
 }
 
 a:active {
-    color: #eac100;
+    color: var(--cream);
     text-decoration: none;
 }
 
 /* About Me CSS */
 
 .aboutme {
-    background-color: #bbe4e9;
-    padding: 5%;
-    margin: 5%;
+    background-color: var(--black);
+    padding: 2%;
+    margin: 2%;
     outline-style: solid;
     outline-width: thin;
     display: flex;
@@ -66,8 +73,10 @@ a:active {
 
 .aboutme-pre {
     font-family: "DM Sans";
+    color: var(--cream);
     outline-style: solid;
     outline-width: thin;
+    outline-color: var(--cream);
     padding: 5%;
     margin: 5%;
     float: right;
@@ -79,4 +88,32 @@ a:active {
     max-width: 33%;
     outline-style: solid;
     outline-width: thin;
+    outline-offset: 10px;
+    outline-color: var(--cream);
+}
+
+.latest { background-color: var(--pink);
+    padding: 2%;
+    margin: 2%;
+    outline-style: solid;
+    outline-width: thin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.latest-p {
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--black);
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: var(--black);
+    padding: 2%;
+    margin: 2%;
+    float: right;
+    flex: 1 1 auto;
+
 }
