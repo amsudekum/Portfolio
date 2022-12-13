@@ -66,7 +66,7 @@ a:active {
 .aboutme {
     background-color: var(--black);
     padding: 2%;
-    margin: 2%;
+    margin: 4%;
     outline-style: solid;
     outline-width: thin;
     display: flex;
@@ -96,9 +96,8 @@ a:active {
 }
 
 .latest { 
-    background-color: var(--pink);
     padding: 2%;
-    margin: 2%;
+    margin: 4%;
     outline-style: solid;
     outline-width: thin;
     display: flex;
@@ -111,8 +110,8 @@ a:active {
     font-family: "Poppins";
     font-size: 50px;
     font-weight: 900;
-    background-color: var(--cream) ;
-    color: var(--black);
+    background-color: var(--black) ;
+    color: var(--cream);
     text-align: center;
     outline-style: solid;
     outline-width: thin;
@@ -127,10 +126,55 @@ a:active {
 
 .latest-img {
     width: 33%;
-    max-width: 33%;
+    max-width: 33%; 
     outline-style: solid;
     outline-width: thin;
     outline-offset: 10px;
     outline-color: var(--black);
 
+}
+
+.mywork { 
+    background-color: var(--orange);
+    padding: 2%;
+    margin: 2%;
+    outline-style: solid;
+    outline-width: thin;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mywork-img {
+    width: 28%;
+    max-width: 28%;
+    outline-style: solid;
+    outline-width: thin;
+    outline-offset: 10px;
+    outline-color: var(--black)
+}
+
+.contact {
+    padding: 0.5%;   
+    font-family: "Poppins";
+    background-color: var(--black);
+    color: var(--cream);
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: var(--orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contact li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact h3 {
+    font-size: 50px;
+    font-weight: 900;
 }
