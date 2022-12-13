@@ -95,45 +95,6 @@ a:active {
     outline-color: var(--cream);
 }
 
-.latest { 
-    padding: 2%;
-    margin: 4%;
-    outline-style: solid;
-    outline-width: thin;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.latest-p {
-    font-family: "Poppins";
-    font-size: 50px;
-    font-weight: 900;
-    background-color: var(--black) ;
-    color: var(--cream);
-    text-align: center;
-    outline-style: solid;
-    outline-width: thin;
-    outline-color: var(--black);
-    padding: 2%;
-    margin: 2%;
-    float: right;
-    flex: 1 1 auto;
-    display: inline-flex;
-
-}
-
-.latest-img {
-    width: 33%;
-    max-width: 33%; 
-    outline-style: solid;
-    outline-width: thin;
-    outline-offset: 10px;
-    outline-color: var(--black);
-
-}
-
 .mywork { 
     background-color: var(--orange);
     padding: 2%;
