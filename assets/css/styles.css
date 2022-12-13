@@ -21,6 +21,9 @@ header {
     font-family: "Poppins";
     background-color: var(--black);
     color: var(--cream);
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: var(--orange);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -92,7 +95,8 @@ a:active {
     outline-color: var(--cream);
 }
 
-.latest { background-color: var(--pink);
+.latest { 
+    background-color: var(--pink);
     padding: 2%;
     margin: 2%;
     outline-style: solid;
@@ -107,7 +111,9 @@ a:active {
     font-family: "Poppins";
     font-size: 50px;
     font-weight: 900;
+    background-color: var(--cream) ;
     color: var(--black);
+    text-align: center;
     outline-style: solid;
     outline-width: thin;
     outline-color: var(--black);
@@ -115,5 +121,16 @@ a:active {
     margin: 2%;
     float: right;
     flex: 1 1 auto;
+    display: inline-flex;
+
+}
+
+.latest-img {
+    width: 33%;
+    max-width: 33%;
+    outline-style: solid;
+    outline-width: thin;
+    outline-offset: 10px;
+    outline-color: var(--black);
 
 }
