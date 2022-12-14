@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: var(--cream);
+    background-color: var(--black);
 }
 
 /* header CSS */
@@ -68,7 +68,8 @@ a:active {
     padding: 2%;
     margin: 4%;
     outline-style: solid;
-    outline-width: thin;
+    outline-width: thick;
+    outline-color: var(--orange);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +79,7 @@ a:active {
     font-family: "DM Sans";
     color: var(--cream);
     outline-style: solid;
-    outline-width: thin;
+    outline-width: thick;
     outline-color: var(--cream);
     padding: 5%;
     margin: 5%;
@@ -90,7 +91,7 @@ a:active {
     width: 33%;
     max-width: 33%;
     outline-style: solid;
-    outline-width: thin;
+    outline-width: thick;
     outline-offset: 10px;
     outline-color: var(--cream);
 }
@@ -99,7 +100,8 @@ a:active {
     padding: 2%;
     margin: 4%;
     outline-style: solid;
-    outline-width: thin;
+    outline-width: thick;
+    outline-color: var(--pink);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,16 +110,16 @@ a:active {
 
 .latest-p {
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     background-color: var(--black) ;
     color: var(--cream);
     text-align: center;
     outline-style: solid;
-    outline-width: thin;
-    outline-color: var(--black);
+    outline-width: thick;
+    outline-color: var(--orange);
     padding: 2%;
-    margin: 2%;
+    margin: 4%;
     float: right;
     flex: 1 1 auto;
     display: inline-flex;
@@ -128,7 +130,7 @@ a:active {
     width: 33%;
     max-width: 33%; 
     outline-style: solid;
-    outline-width: thin;
+    outline-width: thick;
     outline-offset: 10px;
     outline-color: var(--black);
 
@@ -137,9 +139,10 @@ a:active {
 .mywork { 
     background-color: var(--orange);
     padding: 2%;
-    margin: 2%;
+    margin: 4%;
     outline-style: solid;
-    outline-width: thin;
+    outline-width: thick;
+    outline-color: var(--cream);
     display: flex;
     justify-content: space-evenly;
 
@@ -149,7 +152,7 @@ a:active {
     width: 28%;
     max-width: 28%;
     outline-style: solid;
-    outline-width: thin;
+    outline-width: thick;
     outline-offset: 10px;
     outline-color: var(--black)
 }
