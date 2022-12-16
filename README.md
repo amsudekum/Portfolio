@@ -16,8 +16,7 @@ To visit the updated application, follow this link.
 ![Ashley Sudekum Portfolio](assets/images/Portfolio%20Screenshot.png)
     
 ## Credits
- 
-Code provided by KU Bootcamp
+ N/A
  
 ## License
 N/A
